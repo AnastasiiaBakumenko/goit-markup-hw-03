@@ -1,0 +1,279 @@
+body
+{
+    font-family: Roboto, sans-serif;
+    color:#212121;
+    font-size: 14px;
+    background-color: #F5F5F5;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul{
+    
+}
+footer
+{
+    background-color: #2F303A;
+}
+address {
+    font-style: normal
+}
+a, .contact
+{
+text-decoration: none;
+}
+/*header*/
+.logo
+{
+    font-family: Ralewey;
+    font-weight: 700;
+    font-size: 36px;
+    color:#212121;
+    line-height: 1.19;
+}
+.logo-adress {
+    font-family: Ralewey;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #212121
+}
+.logo-blue
+{
+    color:#2196F3;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+}
+.logo-studio
+{
+color:#fff;
+letter-spacing: 0.03em;
+}
+.navigation
+{
+    list-style: none;
+  
+}
+.navigation-point 
+{
+    font-weight:500;
+    color: #212121;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.current
+{
+color: #2196F3;
+}
+.navigation-point:hover,
+.navigation-point:focus
+{
+color: #2196F3;
+}
+.navigation,
+.contact-links,
+.features,
+.works,
+.team,
+.portfolio-button,
+.portfolio-list,
+.contact
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*Contact footer*/
+
+.contact-links .link
+{
+    font-weight:500;
+    color: #757575;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.contact-links .link:hover,
+.contact-links .link:focus
+{
+color: #2196F3;
+}
+.contact .contact-adress
+{
+    color:#fff;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    padding-bottom: 9px;
+}
+.contact .contact-mail{
+    padding-bottom: 9px;
+}
+.contact .contact-mail,
+.contact .contact-phone
+{
+    color: rgba(255,255,255,60%);
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+.contact .contact-adress:hover,
+.contact .contact-mail:hover,
+.contact .contact-phone:hover
+{
+color:#2196F3;
+}
+.contact .contact-adress:focus,
+.contact .contact-mail:focus,
+.contact .contact-phone:focus
+{
+    color: #2196F3;
+}
+/*Portfolio*/
+.button
+{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+    border:none;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.button:hover,
+.button:focus
+{
+    background-color:#2196F3;
+    color:#fff;
+    padding: 6px 25px;
+    border-radius: 4px;
+}
+.project-img
+{
+    padding-bottom: 20px;
+}
+.project-name
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding-bottom: 4px;
+}
+.project-type
+{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+/*Hero*/
+.hero{
+    background-color: #2F303A;
+    margin-top: 0px;
+    text-align: center;
+}
+.hero-title
+{
+    background-color: #2F303A;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.order 
+{
+    display: inline-block;
+    background-color: #2196F3;
+    font-family: inherit;
+    color:#fff;
+    font-weight: 700;
+    cursor:pointer;
+    border:none;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    border-radius: 4px;
+    
+}
+/*Features*/
+.featur
+{
+    visibility: hidden;
+}
+.features-title
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+}
+.features-text
+{
+    color:#757575;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.works-title,
+.team-title
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/*Team*/
+.team-section {
+    background-color: #F5F4FA;
+}
+.team-img
+{
+    padding-bottom: 30px;
+}
+.team-name
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+}
+.team-position
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+}
+
+/*Container*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+.border{
+    border: 1px solid #ECECEC;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom:  94px;
+}
