@@ -39,15 +39,15 @@ text-decoration: none;
 }
 
 .section {
-    padding-top: 47px;
-    padding-bottom: 47px;
+    padding-top: 94px;
+
 }
 /*header*/
 .logo
 {
     font-family: Ralewey;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 26px;
     color:#212121;
     line-height: 1.19;
 }
@@ -72,7 +72,7 @@ letter-spacing: 0.03em;
 .header-nav{
 display: flex;
 align-items: center;
-
+padding: 25px 0;
 }
 
 .navigation
@@ -89,8 +89,8 @@ align-items: center;
     color: #212121;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .navigation .item + .item,
 .contact-links .item + .item{
@@ -122,12 +122,17 @@ color: #2196F3;
 .footer-contact{
     padding: 60px 0;
 }
-.contact{
-    padding-top: 20px;
+.contact-style
+{
+    margin-top: 20px;
 }
 .contact-links{
     display: flex;
     margin-left: auto;
+}
+.link{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .contact-links .link
 {
@@ -141,16 +146,16 @@ color: #2196F3;
 {
 color: #2196F3;
 }
+.contact-list:not(:last-child)
+{
+margin-bottom: 9px;
+}
 .contact .contact-adress
 {
     color:#fff;
     line-height: 1.71;
     font-weight: 400;
     letter-spacing: 0.03em;
-    padding-bottom: 9px;
-}
-.contact .contact-mail{
-    padding-bottom: 9px;
 }
 .contact .contact-mail,
 .contact .contact-phone
@@ -180,7 +185,7 @@ color:#2196F3;
 .portfolio-button{
     display: flex;
     justify-content: center;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
 }
 .button-list:not(:first-child){
     margin-left: 8px;
@@ -215,6 +220,7 @@ color:#2196F3;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 94px;
 }
 .project{
     padding: 20px 24px;
@@ -231,7 +237,7 @@ color:#2196F3;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 .project-type
 {
@@ -244,7 +250,7 @@ color:#2196F3;
 /*Hero*/
 .hero{
     background-color: #2F303A;
-    margin-top: 0px;
+    padding:200px 0;
     text-align: center;
 }
 .hero-title
@@ -321,6 +327,7 @@ color:#2196F3;
 .works{
     display:flex;
     flex-basis: calc((100%-60px)/3);
+    padding-bottom: 94px;
 }
 .work{
     display: block;
@@ -354,6 +361,7 @@ font-size: 36px;
     display: flex;
     align-items: center;
     flex-basis: calc((100%-90px)/4);
+    padding-bottom: 94px;
 }
 .team-list:not(:first-child){
     margin-left: 30px;
@@ -380,7 +388,7 @@ padding: 30px 10px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .team-position
 {
